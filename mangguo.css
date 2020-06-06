@@ -1,0 +1,303 @@
+/*重置浏览器样式*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*清除浮动*/
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.board1{
+	height:100px;
+	width:100%;
+	background-color:rgba(255,255,0,0.1);
+}
+.container1{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+}
+.logo{
+  margin-top:10px;
+}
+.ave1{
+  float:left;
+}
+.ave1 li{
+  float:left; 
+}
+.ave1 a{
+  font-size:18px;
+  font-weight:400;
+  color:black;
+}
+.ave-st{
+  margin-top:40px;
+  margin-left:40px;
+}
+.ave-st a:hover{
+  padding-bottom:10px;
+  border-bottom:2px solid red;
+  color:red;
+}
+.form{
+  margin-top:30px;
+  float:right;
+}
+.search{
+  border:1px solid rgba(255,255,0,0.5);
+  font-size:14px;
+  font-weight:400;
+  color:rgba(191,191,191,1);
+  width:350px;
+  height:15px;
+  padding-top:13px;
+  padding-bottom:12px;
+  padding-left:9px;
+  float:left;
+}
+.submit{
+  width:50px;
+  height:42px;
+  border:1px solid rgba(255,255,0,0.5);
+  float:left;
+  background: rgba(255,255,0,0.6) url(xlzx/search.png) no-repeat center center;
+}
+
+.board2{
+  height:400px;
+  background:rgba(255,255,0,0.1);
+}
+.container2{
+  width:1200px;
+  height:400px;
+  margin:0 auto;
+  position:relative;
+}
+.container2 .poem{
+  width:1200px;
+  height:50px;
+  position:absolute;
+  left:0;
+  bottom:10px;
+  background:rgba(0,0,0,0.4);
+  text-align:center;
+}
+.container2 .poem p{
+  color:rgba(255,255,255,0.6);
+  font-size:30px;
+  font-weight:400;
+}
+.board3{
+  height:60px;
+  text-align:center;
+  background:#eee;
+}
+.container3{
+  margin:0 auto;
+  width:1200px;
+  height:60px;
+}
+.front{
+  float:left;
+  font-size:20px;
+  font-weight:400;
+  color:rgba(255,0,0,1);
+  margin-top:15px;
+}
+.behind{
+  float:right;
+  font-size:16px;
+  font-weight:400;
+  margin-top:20px;
+}
+.container3 .behind a{
+  color:rgba(0,0,0,0.8);
+}
+.ave2 a{
+  color:rgba(0,0,0,0.4);
+}
+.ave2{
+  float:left;
+  margin-left:290px;
+  margin-top:20px;
+}
+.ave2 li{
+  float:left;
+  margin-right:68px;
+  font-size:16px;
+  font-weight:400;
+  text-align:center;
+}
+.ave2 a:hover{
+  padding-bottom:10px;
+  border-bottom:2px solid red;
+  color:red;
+}
+
+.board4{
+  height:860px;
+  background:#eee;
+}
+.container4{
+  width:1200px;
+  height:860px;
+  margin:0 auto;
+}
+.container4 .ave3{
+  margin-bottom:5px;
+  width:1200px;
+}
+.container4 .ave3 li{
+  width:1196px;
+  height:160px;
+  background:#fff;
+  margin-bottom:10px;
+  border:2px solid #bbb;
+  position:relative;
+}
+.container4 .ave3 img{
+  position:absolute;
+  top:5px;
+}
+.container4 .ave3 h3{
+  position:absolute;
+  left:400px;
+  top:10px;
+}
+.container4 .ave3 p{
+  position:absolute;
+  left:400px;
+  top:45px;
+  width:580px;
+}
+.container4 .ave3 .big{
+  font-weight:400;
+  font-size:19px;
+  color:red;
+}
+.container4 .ave3 .small{
+  position:absolute;
+  left:400px;
+  top:130px;
+  color:#aaa;
+  font-size:12px;
+}
+.container4 .ave3 .more{
+  position:absolute;
+  left:1100px;
+  top:130px;
+  font-size:10px;
+  color:rgba(0,164,255,1);
+}
+
+.board5{
+  height:60px;
+  text-align:center;
+  background:#eee;
+}
+.container5{
+  margin:0 auto;
+  width:1200px;
+  height:60px;
+}
+.container5 .behind a{
+  color:rgba(0,0,0,0.8);
+}
+
+.board6{
+  height:620px;
+  background:#eee;
+}
+.container6{
+  width:1200px;
+  height:620px;
+  margin:0 auto;
+}
+.container6 .ave4{
+  width:1200px;
+}
+.container6 .ave4 li{
+  width:1196px;
+  height:300px;
+  background:#fff;
+  margin-bottom:10px;
+  border:2px solid #bbb;
+  position:relative;
+}
+.container6 .ave4  h3{
+  position:absolute;
+  top:20px;
+  left:250px;
+}
+.container6 .ave4 p{
+  position:absolute;
+  top:60px;
+  left:250px;
+  width:700px;
+}
+.container6 .ave4 .small{
+  position:absolute;
+  left:250px;
+  top:260px;
+  color:#aaa;
+  font-size:12px;
+}
+.container6 .ave4 .more{
+  position:absolute;
+  left:1100px;
+  top:260px;
+  font-size:10px;
+  color:rgba(0,164,255,1);
+}
+.container6 .ave4 .red{
+  color:red;
+  font-weight:400;
+  font-size:20px;
+  position:absolute;
+  left:250px;
+  top:220px;
+}
+
+.board7{
+  height:200px;
+  background-color:white;
+}
+.container7{
+  height:200px;
+  width:1200px;
+  margin:0 auto;
+  position:relative;
+}
+.container7 form{
+  padding-top:60px;
+}
+.container7 .new{
+  position:absolute;
+  left:1100px;
+  top:50px;
+}
+.container7 p{
+  position:absolute;
+  left:400px;
+  top:80px;
+  font-size:18px;
+}
+.container7 .weixin{
+  color:rgba(0,164,255,1);
+  font-weight:400;
+  font-size:20px;
+}
